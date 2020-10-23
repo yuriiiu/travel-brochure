@@ -1,2 +1,16 @@
 @import "header.css";
 @import "footer.css";
+
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	background-color: red;
+}
+
+.container section {
+	flex-basis: 50%;
+	border: 1px groove gold;
+	padding: 5px;
+}
